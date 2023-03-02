@@ -1,0 +1,37 @@
+.header {
+    font-family: 'Karla', sans-serif;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 85vw;
+    height: 5rem;
+    padding-right: 50rem;
+    background-color: #DFFFD8;
+    color: #EB455F;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10%;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+    z-index: 10;
+  }
+  
+  .main-image {
+    width: 100%;
+    height: 25rem;
+    z-index: 0;
+    overflow: hidden;
+  }
+  
+  .main-image img {
+    width: 110%;
+    height: 100%;
+    object-fit: cover;
+    transform: rotateZ(-5deg) translateY(-4rem) translateX(-1rem);
+  }
+
+  @media (max-width: 1000px) {
+    .header h1{
+      font-size: 1.5rem;
+    }
+  }

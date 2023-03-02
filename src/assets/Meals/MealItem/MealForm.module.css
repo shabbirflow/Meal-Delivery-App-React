@@ -1,0 +1,33 @@
+.form {
+    text-align: right;
+    /* background-color: blue; */
+
+  }
+  
+  .form button {
+    font: inherit;
+    font-size: 1rem;
+    cursor: pointer;
+    background-color: #99FFCD;
+    border: 1px solid #99FFCD;
+    color: #EB455F;
+    padding: 0.25rem 2rem;
+    border-radius: 20px;
+    font-weight: bold;
+  }
+  
+  .form button:hover,
+  .form button:active {
+    background-color: #9DF1DF;
+    border-color: #9DF1DF;
+    color: orange;
+  }
+
+  @media screen and (max-width: 1000px) {
+    .form{
+      font-size: 0.8rem;
+      /* background-color: pink; */
+    }
+
+
+  }
